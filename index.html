@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Card Validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92c5c3c202.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <navbar>
+        <div><img id="logo" src="img/sports-world-logo.svg"></div>
+        <a id="menu"><i class="fa-solid fa-bars fa-2xl"></i></a>
+      </navbar>
+    </header>
+    <main id="container">
+        <h1>VALIDAR TARJETA DE CRÉDITO</h1>
+        <form>
+          <p id="label">Ingrese el número de tarjeta de crédito<i class="fa-solid fa-credit-card"></i></p>
+          <input id="cardNumber" minlength="16" maxlength="16"  type="text" inputmode="numeric" placeholder="############4523" pattern="[0-9]+" required/>
+          <p id="mensaje"></p>
+          <button id="validar">Validar</button>
+          <button id="limpiar">Limpiar</button>
+        </form>
+    </main>
+    <footer>
+      <span>Consulta nuestra Política de Calidad , Certificado ISO , Objetivos de Calidad</span>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
