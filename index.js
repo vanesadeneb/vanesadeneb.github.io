@@ -12,10 +12,10 @@ document.getElementById("validar").addEventListener("click", function(e){
         alert("¡Ingresa el número de tu tarjeta de cŕedito!");
         document.getElementById("cardNumber").value = "";
     }else if(validator.isValid(creditCardNumber) === true){
-        pNode.textContent += "Tu tarjeta de cŕedito es válida";
+        pNode.textContent += "Tarjeta de cŕedito válida";
         pNode.style.color = '#008000';
     }else{
-        pNode.textContent += "Tu tarjeta de cŕedito es inválida";
+        pNode.textContent += "Tarjeta de cŕedito inválida";
         pNode.style.color = '#d00000';
     }
     
