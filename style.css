@@ -1,6 +1,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
 }
 navbar{
   display: flex;
