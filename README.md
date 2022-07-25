@@ -30,6 +30,8 @@ Es importante para el gimnasio contar con esta web app porque les evita problema
 
 ## Resumen de feedback
 Consejos y sugerencias recibidos por parte de los coaches y mis compañeras:
+* Cambiar los colores del diseño por unos más vivos
+* Agregar una imagen de una tarjeta de crédito.
 * Cambiar color de fondo rojo por un color menos cansado a la vista.
 * Redondear las esquinas del contenedor de los datos que se encuentra de color gris para mayor uniformidad con el resto del diseño del proyecto.
 * Hacer más grande el tamaño de la letra del botón
@@ -37,5 +39,11 @@ Consejos y sugerencias recibidos por parte de los coaches y mis compañeras:
 
 
 ## Imagen del prototipo final
-![Prototipo final](https://github.com/vanesadeneb/CDMX013-card-validation/blob/main/src/img/cardValidationImageProject.png)
+
+### Prototipo hecho en figma
+![Prototipo figma](https://github.com/vanesadeneb/vanesadeneb.github.io/blob/main/img/prototipoFigma.png)
+
+### Prototipo con temática implementada y cambio de colores
+![Prototipo penultimo](https://github.com/vanesadeneb/vanesadeneb.github.io/blob/main/img/prototipoPenultimoWeb.jpeg)
+
 
